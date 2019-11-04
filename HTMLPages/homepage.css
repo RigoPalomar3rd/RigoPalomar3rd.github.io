@@ -39,15 +39,37 @@ header{
     font-family: 'Oswald', sans-serif;
     height: 100vh;
     position: relative;
+    color: white;
+    font-size: 40px;
+    
+    } 
     
     
     
     
-    
+@keyframes move-text{
+    0%{
+        left: -500px;
+    } 
+    100%{
+      left: 500px;
+    }
 }
 
 
 .content-wrapper{
     width: 900px;
     align-content: center;
+}
+
+
+.content-title{
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-container{
+width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
